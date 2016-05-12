@@ -1,8 +1,6 @@
   isPrimes <- function(n) {
-      if ( (n %% 3) == 0 || (n %% 5) == 0  || (n %% 7) == 0 ) {
-          print ("is not prime")
+    if ((n %% 2) == 0 ||  (n %% 3) == 0 || (n %% 5) == 0  || (n %% 7) == 0 ) {
+          return (0)
       } else {
-          print ("is prime")
-      }
-
+          return (n)
   }
