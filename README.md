@@ -3,10 +3,6 @@
 
 
 # R_isPrimes_Function
-=============
-
-
-# R_isPrimes_Function
 Function that detectis primes Number, Fibonacci and such staff
 ````R
     isPrimes <- function(n) {
